@@ -1,13 +1,13 @@
 FROM ubuntu:20.04
 
-LABEL Maintainer "Apoorv Vyavahare <apoorvvyavahare@pm.me>"
+LABEL Maintainer "asd"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
 #VNC Server Password
-ENV VNC_PASS="samplepass" \
+ENV VNC_PASS="123456" \
 #VNC Server Title(w/o spaces)
-    VNC_TITLE="Vubuntu_Desktop" \
+    VNC_TITLE="dds" \
 #VNC Resolution(720p is preferable)
     VNC_RESOLUTION="1280x720" \
 #VNC Shared Mode (0=off, 1=on)
